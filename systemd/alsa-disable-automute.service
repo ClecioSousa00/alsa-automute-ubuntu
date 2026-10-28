@@ -1,0 +1,12 @@
+[Unit]
+Description=Desativar Auto-Mute da ALC897
+Documentation=https://github.com/SEU-USUARIO/alsa-automute-fix
+After=pipewire.service wireplumber.service
+
+[Service]
+Type=oneshot
+RemainAfterExit=yes
+ExecStart=%h/.local/bin/alsa-disable-automute.sh
+
+[Install]
+WantedBy=default.target

@@ -1,0 +1,13 @@
+# Backups de estado do WirePlumber
+*.bak
+*.bak.*
+wireplumber.bak.*/
+
+# Editores
+.vscode/
+.idea/
+*.swp
+*~
+
+# Sistema
+.DS_Store
