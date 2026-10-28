@@ -1,4 +1,4 @@
-# Fix: caixas de som mudas com o headset conectado (Realtek ALC897 + PipeWire)
+# Fix: caixas de som sem áudio com o headset conectado (Realtek ALC897 + PipeWire)
 
 Correção para o problema em que o áudio não sai nas **caixas de som** enquanto um
 **headset está plugado no painel frontal**, mesmo trocando a saída no painel de som
